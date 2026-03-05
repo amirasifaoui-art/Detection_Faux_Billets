@@ -14,11 +14,11 @@ Une application interactive a été développée avec Streamlit pour permettre a
 
 # Structure du Projet
 
-- app.py : Script principal de l'interface Streamlit.
+- apply.py : Script principal de l'interface Streamlit.
 - Analyse_Exploratoire_Donnees_Billets.ipynb : Analyse complète, nettoyage des données et étude des testes statistiques.
 - Algorithmes_Billets.ipynb : Comparaisons et entraînement des différents modèles en utilisant plusieurs algorithmes (supervisé et non supervisé) 
 - requirements.txt : Liste des bibliothèques nécessaires (Pandas, Scikit-learn, Seaborn, etc.).
-- data : Dossier contenant les jeux de données (dimensions des billets).
+- billets_test : fichier contenant les jeux de données (dimensions des billets).
 
 # Résultats
 Le modèle final retenu permet d'identifier les faux billets avec une fiabilité élevée, offrant ainsi un outil d'aide à la décision automatisé.
